@@ -1,4 +1,6 @@
 #!/bin/bash
 
-systemctl enable webdis.service
-systemctl start webdis.service
+systemctl enable webdis.service;
+systemctl start webdis.service;
+
+exit 0;
