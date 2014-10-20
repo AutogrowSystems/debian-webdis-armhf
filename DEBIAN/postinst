@@ -1,4 +1,4 @@
 #!/bin/bash
 
-update-rc.d webdis enable
-service webdis start
+systemctl enable webdis.service
+systemctl start webdis.service
