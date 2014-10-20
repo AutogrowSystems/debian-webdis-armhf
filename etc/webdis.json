@@ -10,7 +10,7 @@
 	"threads":	5,
 	"pool_size": 20,
 
-	"daemonize":	false,
+	"daemonize":	true,
 	"websockets":	false,
 
 	"database":	0,
