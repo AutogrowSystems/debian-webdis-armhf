@@ -1,0 +1,9 @@
+[Unit]
+Description=Webdis Server
+
+[Service]
+ExecStart=/etc/init.d/webdis start
+ExecStop=/etc/init.d/webdis stop
+
+[Install]
+WantedBy=multi-user.target
