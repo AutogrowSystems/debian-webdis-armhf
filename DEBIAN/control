@@ -2,7 +2,7 @@ Package: webdis
 Version: 0.1.1
 Section: misc
 Priority: optional
-Architecture: arm
+Architecture: armhf
 Essential: no
 Depends: redis-server
 Installed-Size: 0
