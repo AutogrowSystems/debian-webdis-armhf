@@ -4,7 +4,7 @@ Section: misc
 Priority: optional
 Architecture: armhf
 Essential: no
-Depends: redis-server
+Depends: redis-server, libevent-dev
 Installed-Size: 0
 Maintainer: Robert McLeod <robert@autogrow.com>
 Homepage: https://github.com/AutogrowSystems/debian-webdis-arm
