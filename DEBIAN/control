@@ -5,7 +5,7 @@ Priority: optional
 Architecture: armhf
 Essential: no
 Depends: redis-server, libevent-dev
-Installed-Size: 0
+Installed-Size: 338
 Maintainer: Robert McLeod <robert@autogrow.com>
 Homepage: https://github.com/AutogrowSystems/debian-webdis-arm
 Description: A web based API that allows access to a redis server
