@@ -1,0 +1,15 @@
+#!/bin/bash
+
+[[ "$1" ]] || {
+  echo "Usage: webdis <config-file>";
+  exit 1;
+}
+
+PIDFILE="/var/run/webdis.pid";
+
+/usr/bin/webdis "$1" & PID=$!;
+
+echo "$PID" > "$PIDFILE";
+echo "Started webdis with pid $PID";
+
+exit 0;
