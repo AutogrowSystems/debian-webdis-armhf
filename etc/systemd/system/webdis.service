@@ -1,0 +1,11 @@
+[Unit]
+Description=Webdis Server
+Requires=redis-server.service
+After=redis-server.service
+
+[Service]
+ExecStart=/usr/bin/webdis /etc/webdis.json
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
