@@ -4,7 +4,9 @@ Requires=redis-server.service
 After=redis-server.service
 
 [Service]
-ExecStart=/usr/bin/webdis /etc/webdis.json
+Type=forking
+PIDFile=/var/run/webdis.pid
+ExecStart=/usr/bin/webdis-wrapper /etc/webdis.json
 Restart=always
 
 [Install]
